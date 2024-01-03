@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: blanchedalmond;
+    }
+    .main {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main h1 {
+      margin: 3rem 0;
+    }
+
+    label {
+      margin: 0.5rem 0;
+    }
+
+    button {
+      padding: 5px 2px;
+      margin-top: 5px;
+      border-radius: 11px;
+      font-weight: bolder;
+      background-color: bisque;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <h1>Sign Up</h1>
+      <form class="container" method="post">
+        <label>Name</label>
+        <input type="text" placeholder="type your name" />
+        <label>Gender</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <label>Email</label>
+        <input type="text" placeholder="type your email" />
+        <label>Password</label>
+        <input type="text" placeholder="type your Password" />
+        <button>Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
